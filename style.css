@@ -1,3 +1,28 @@
 body{
-    color:blue;
+    background-color:rgb(185, 137, 103);
+}
+
+.titulo-da-pagina{
+color:rgb(59, 35, 12);
+font-size: 25pt;
+text-align:center  
+
+}
+.subtitulo-da-pagina{
+color:rgb(83, 46, 4);
+font-size: 20pt;
+
+
+}
+.corpo-artigo{
+color:rgb(49, 25, 25);
+font-size: 16pt;
+line-height: 1.5;
+padding: 15px;
+}
+.endereço{
+    color:rgb(97, 43, 4);
+    font-size: 15pt;
+    text-align:center;
+    
 }
