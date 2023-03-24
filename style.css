@@ -1,28 +1,40 @@
 body{
-    background-color:rgb(185, 137, 103);
+    background-color:rgb(115, 185, 218);
 }
 
 .titulo-da-pagina{
 color:rgb(59, 35, 12);
-font-size: 25pt;
-text-align:center  
+margin: 40px 10px 10px 10px;
+font-size: 35pt;
+font-style: italic;
+text-align:center;
+font-weight: bolder;
 
 }
+
 .subtitulo-da-pagina{
 color:rgb(83, 46, 4);
 font-size: 20pt;
-
+font-weight: bolder;
+margin: 40px 10px 10px 10px;
 
 }
 .corpo-artigo{
 color:rgb(49, 25, 25);
 font-size: 16pt;
 line-height: 1.5;
-padding: 15px;
+
 }
 .endereço{
     color:rgb(97, 43, 4);
     font-size: 15pt;
     text-align:center;
     
+}
+.banner-header{
+width:100%; /* largura*/
+height: 300px;
+object-fit: cover;
+object-position: 50% 50%;
+
 }
