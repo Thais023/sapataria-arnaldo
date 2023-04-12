@@ -1,5 +1,5 @@
 body{
-    background-color:rgb(115, 185, 218);
+    background-color:rgb(228, 208, 208);
 }
 
 .titulo-da-pagina{
@@ -20,7 +20,7 @@ margin: 40px 10px 10px 10px;
 
 }
 .corpo-artigo{
-color:rgb(49, 25, 27);
+color:rgb(134, 112, 112);
 font-size: 16pt;
 line-height: 1.5;
 
@@ -32,6 +32,8 @@ line-height: 1.5;
     font-style: italic;
     
 }
+/*imagem banner produtos*/
+
 .banner-header{
 width:100%; /* largura*/
 height: 250px;
@@ -50,20 +52,20 @@ height: 200px;
 }
 .produtos-bolsas h1{
 color: white;
-background: blue;
+background:rgb(134, 112, 112);
 font-size: 20pt;
 font-style: italic;
-border:3px solid rgb(2, 23, 43);
+border:3px solid rgb(134, 112, 112);
 height: 40px;
 line-height: 1.5;
 }
 
 .produtos-sapatos h1{
     color:white ;
-    background: blue ;
+    background: rgb(134, 112, 112) ;
     font-size: 20pt;
     font-style: italic;
-    border:3px solid rgb(2, 23, 43);
+    border:3px solid rgb(134, 112, 112);
     height: 40px;
     line-height: 1.5;
 }
