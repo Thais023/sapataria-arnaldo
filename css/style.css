@@ -14,7 +14,7 @@
 body{
     
     background-color:rgb(241, 222, 201);
-    font-family: Raleway
+    font-family: Raleway, sans-serif;
 }
 
 .page-title{
@@ -81,23 +81,26 @@ body{
 /*menu de navegação*/
 .navbar ul{
     display: flex;
-    justify-content: start;
+    justify-content:center;
+    background: rgb(141, 123, 104) ;
 }
 .navbar li{
-    padding: 90px
+    padding: 30px
 }
 
 /*Footer*/
 .address{
     color:var(--cor-principal);
-    font-size: 16pt;
+    font-size: 14pt;
     text-align:center;
     font-style: italic;
+
 }
 
 /*pagina de contato*/
 .container{
     display: flex;
+    
     justify-content: space-between;
 
 }
@@ -108,4 +111,24 @@ body{
 .container h3{
     font-size: 14pt;
     font-weight: 600;
+}
+/*Formulário*/
+label,
+button{
+    display: block;
+    
+}
+
+.contact-form{
+    width: 60%;
+    margin:auto;
+    
+    
+}
+.contact-form input,
+.contact-form textarea,
+.contact-form select,
+.contact-form button{
+    width: 100%;
+    box-sizing: border-box;
 }

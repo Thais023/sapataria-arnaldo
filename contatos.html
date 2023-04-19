@@ -29,7 +29,7 @@
     </header>
     <div class="container">
         <main>
-            <form action="" method="">
+            <form class="contact-form" action="" method="">
                 <label for="name">Nome:</label>
                 <input type="text" id="name" autofocus required>
     
@@ -37,7 +37,21 @@
                 <input type="email" id="mail" required>
                 
                 <label for="subject">Assunto:</label>
-                <input type="text" id="subject" required>
+                <!--<input type="text" id="subject" required> -->
+
+
+
+                <select name="" id="">
+                    <option value="prazo">Prazo de entrega</option>
+                    <option value="orcamento">Orçamento</option>
+                    <option value="contato">Contato</option>
+                    <option value="outros">Outros</option>
+                </select>   
+
+
+
+
+
     
                 <label for="message">Mensagem:</label>
                 <textarea id="message" cols="30" rows="5"></textarea>
@@ -45,7 +59,7 @@
                 <label for="phone">Telefone:</label>
                 <input type="tel" id="phone">
     
-                <input type="submit">
+                <button>Enviar</button>
     
     
     
