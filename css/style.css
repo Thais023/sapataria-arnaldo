@@ -42,6 +42,14 @@ body{
 
     /*imagem banner produtos*/
 
+.home-page{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    }
+
 .banner-header{
     width:99%; /* largura*/
     height: 250px;
