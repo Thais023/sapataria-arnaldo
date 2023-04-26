@@ -39,8 +39,7 @@ body{
     line-height: 1.5;
 
 }
-
-    /*imagem banner produtos*/
+/*imagem banner produtos*/
 
 .home-page{
 
@@ -95,14 +94,12 @@ body{
 .navbar li{
     padding: 30px
 }
-
 /*Footer*/
 .address{
     color:var(--cor-principal);
     font-size: 14pt;
     text-align:center;
     font-style: italic;
-
 }
 
 /*pagina de contato*/
@@ -110,8 +107,8 @@ body{
     display: flex;
     
     justify-content: space-between;
-
 }
+
 .container> aside>img {
     width: 200px;
 
@@ -126,7 +123,6 @@ button{
     display: block;
     
 }
-
 .contact-form{
     width: 60%;
     margin:auto;
