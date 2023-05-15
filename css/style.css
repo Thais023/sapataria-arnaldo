@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap');
+
+
+
+
+
+/*variaveis*/
+:root {
+    --cor-principal: rgb(141, 123, 104);
+    --cor-secundaria: rgb(241, 222, 201);
+}
+
+body {
+
+    background-color: rgb(241, 222, 201);
+    font-family: Raleway, sans-serif;
+}
+
+.page-title {
+    color: var(--cor-principal);
+    margin: 40px 10px 10px 10px;
+    font-size: 35pt;
+    font-style: italic;
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+.page-subtitle {
+    color: var(--cor-principal);
+    font-size: 20pt;
+    font-weight: bolder;
+    margin: 40px 10px 10px 10px;
+
+}
+
+.body-article {
+    color: var(--cor-principal);
+    font-size: 16pt;
+    line-height: 1.5;
+
+}
+
+/*imagem banner produtos*/
+
+.home-page {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+}
+
+.banner-header {
+    width: 99%;
+    /* largura*/
+    height: 250px;
+    object-fit: cover;
+    object-position: 50% 50%;
+
+}
+
+/*products*/
+.products-shoes img {
+    width: 20%;
+    /* largura*/
+    height: 200px;
+}
+
+.product-bags img {
+    width: 20%;
+    /* largura*/
+    height: 200px;
+}
+
+.product-bags h1 {
+    color: var(--cor-principal);
+    color: var(--cor-secundaria);
+    background: rgb(141, 123, 104);
+    font-size: 20pt;
+    font-style: italic;
+    border: 3px solid rgb(134, 112, 112);
+    height: 40px;
+    line-height: 1.5;
+}
+
+.products-shoes h1 {
+    color: var(--cor-principal);
+    color: var(--cor-secundaria);
+    background: rgb(141, 123, 104);
+    font-size: 20pt;
+    font-style: italic;
+    border: 3px solid rgb(134, 112, 112);
+    height: 40px;
+    line-height: 1.5;
+}
+
+/*menu de navegação*/
+a:link {
+    color: blueviolet;
+
+}
+
+a:visited {
+    color:chartreuse;
+}
+
+a:hover {
+    color: red;
+    font-size: 15pt;
+    background-color: #693d20;
+    color: white;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    background: rgb(141, 123, 104);
+}
+
+.navbar li {
+    padding: 30px
+}
+
+/*Footer*/
+.address {
+    color: var(--cor-principal);
+    font-size: 14pt;
+    text-align: center;
+    font-style: italic;
+}
+
+/*pagina de contato*/
+.container {
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.container>aside>img {
+    width: 200px;
+
+}
+
+.container h3 {
+    font-size: 14pt;
+    font-weight: 600;
+}
+
+/*Formulário*/
+label,
+button {
+    display: block;
+
+}
+
+.contact-form {
+    width: 60%;
+    margin: auto;
+
+
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form select,
+.contact-form button {
+    width: 100%;
+    box-sizing: border-box;
+}
