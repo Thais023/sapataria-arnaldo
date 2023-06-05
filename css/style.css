@@ -168,3 +168,13 @@ button {
     width: 100%;
     box-sizing: border-box;
 }
+@media screen and (max-width:400px){
+
+.navbar a{
+    white-space: nowrap;
+
+} 
+}
+.lista-produtos{
+    width: 400px;
+}
